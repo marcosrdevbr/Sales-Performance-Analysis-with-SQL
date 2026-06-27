@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 -- Question 1
 -- What is the total sales revenue?
 
@@ -92,3 +93,104 @@ ORDER BY Revenue DESC;
 -- 2025-03: 1550
 
 -- Answer: January 2025 had the best sales performance with a revenue of 2,800.
+=======
+-- Question 1
+-- What is the total sales revenue?
+
+SELECT SUM(Sales) AS Total_Revenue
+FROM sales_data;
+
+-- Result: 6900
+
+--
+
+-- Question 2
+-- Which region generated the highest revenue?
+
+SELECT
+    Region,
+    SUM(Sales) AS Revenue
+FROM sales_data
+GROUP BY Region
+ORDER BY Revenue DESC;
+
+-- Result:
+-- North: 2350
+-- East: 1950
+-- West: 1900
+-- South: 700
+
+-- Answer: North generated the highest revenue.
+
+--
+
+-- Question 3
+-- Which products sold the most units?
+
+SELECT
+    Product,
+    SUM(Quantity) AS Units_Sold
+FROM sales_data
+GROUP BY Product
+ORDER BY Units_Sold DESC;
+
+-- Result:
+-- Keyboard: 10
+-- Headphones: 8
+-- Smartwatch: 5
+-- Chair: 5
+-- Tablet: 4
+
+-- Answer: Keyboard was the best-selling product with 10 units sold.
+
+--
+
+-- Question 4
+-- Which category generated the highest profit?
+
+SELECT
+    Category,
+    SUM(Sales - Cost) AS Profit
+FROM sales_data
+GROUP BY Category
+ORDER BY Profit DESC;
+
+-- Result:
+-- Electronics: 930
+-- Furniture: 870
+-- Office: 420
+
+-- Answer: Electronics generated the highest profit.
+
+--
+
+-- Question 5
+-- What is the average order value?
+
+SELECT
+    AVG(Sales) AS Average_Order_Value
+FROM sales_data;
+
+-- Result: 575
+
+-- Answer: The average order value was 575.
+
+--
+
+-- Question 6
+-- Which month had the best sales performance?
+
+SELECT
+    SUBSTR(Date, 1, 7) AS Month,
+    SUM(Sales) AS Revenue
+FROM sales_data
+GROUP BY Month
+ORDER BY Revenue DESC;
+
+-- Result:
+-- 2025-01: 2800
+-- 2025-02: 2550
+-- 2025-03: 1550
+
+-- Answer: January 2025 had the best sales performance with a revenue of 2,800.
+>>>>>>> ef578fdc08804c53652ac3c6abd96b8dc43e1e5b
