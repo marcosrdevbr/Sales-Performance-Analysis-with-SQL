@@ -193,4 +193,4 @@ ORDER BY Revenue DESC;
 -- 2025-03: 1550
 
 -- Answer: January 2025 had the best sales performance with a revenue of 2,800.
->>>>>>> ef578fdc08804c53652ac3c6abd96b8dc43e1e5b
+
