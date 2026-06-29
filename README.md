@@ -41,7 +41,7 @@ The dataset contains transactional sales data with the following fields:
 
 ### 1. What is the total sales revenue?
 
-**Result:** 6,900
+**Answer:** 6,900
 
 ### 2. Which region generated the highest revenue?
 
@@ -134,7 +134,7 @@ Through this project, I strengthened my skills in:
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Marcos Rogério da Silva**
 
