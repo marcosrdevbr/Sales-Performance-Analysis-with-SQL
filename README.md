@@ -78,6 +78,8 @@ The dataset contains transactional sales data with the following fields:
 
 ## 🖼 Query Results
 
+Below are screenshots showing the SQL queries and outputs generated during the analysis.
+
 ## Total Revenue
 
 ![Total Revenue](./Images/Total_Revenue.jpeg)
@@ -119,14 +121,16 @@ Sales-Performance-Analysis-with-SQL
 
 ---
 
-## 🎓 Skills Demonstrated
+## 🎓 What I Learned
 
-* SQL Queries
-* Data Analysis
-* Business Intelligence
-* Aggregate Functions
-* Data Aggregation
-* Analytical Thinking
+Through this project, I strengthened my skills in:
+
+- Writing SQL queries to answer business questions
+- Using aggregate functions such as SUM(), AVG(), and GROUP BY
+- Analyzing sales performance and business metrics
+- Transforming raw data into actionable insights
+- Organizing and documenting projects on GitHub
+- Presenting analytical results in a clear and structured format
 
 ---
 
