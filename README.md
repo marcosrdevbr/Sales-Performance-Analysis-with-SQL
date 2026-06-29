@@ -84,11 +84,11 @@ The dataset contains transactional sales data with the following fields:
 
 ## Revenue by Region
 
-![Revenue by Region](Images/revenue_by_region.png)
+![Revenue by Region](Images/Revenue_by_Region.png)
 
 ## Profit by Category
 
-![Profit by Category](Images/profit_by_category.png)
+![Profit by Category](Images/Profit_by_Category.png)
 
 ---
 
